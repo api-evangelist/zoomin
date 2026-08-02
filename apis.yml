@@ -1,8 +1,27 @@
 aid: zoomin
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/zoomin.png
 name: Zoomin
-description: 'Zoomin is a company surfaced as a portfolio company of bessemer-venture-partners and added
-  to the API Evangelist network as a stub for enrichment. Sector: cloud. This profile is a lead awaiting
-  the enrichment pipeline.'
+description: 'Zoomin is a content and knowledge orchestration platform that unifies
+  unstructured product content — documentation, in-product help, knowledge base and
+  community answers — into personalized self-service and in-app experiences across
+  customer support, success and experience teams. Founded in Tel Aviv, Zoomin was
+  acquired by Salesforce on November 1, 2024 and now powers the Unified Knowledge and
+  Agentforce/Data Cloud offerings. Its products include the Content Delivery Platform,
+  Documentation Portal, In-Product Help, Zoomin for ServiceNow, Unified Knowledge and
+  Zoomin Analytics. Zoomin does not publish a public, self-serve developer API surface;
+  its integrations are delivered through customer implementations and the Salesforce
+  platform. This profile was surfaced as a Bessemer Venture Partners portfolio company.'
 url: https://raw.githubusercontent.com/api-evangelist/zoomin/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -12,10 +31,17 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
 - Cloud
+- Content
+- Documentation
+- Knowledge Management
+- Customer Support
+- Customer Experience
+- Analytics
+- Salesforce
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -25,3 +51,18 @@ maintainers:
 common:
 - type: Website
   url: https://www.zoominsoftware.com/
+- type: Documentation
+  url: https://docs.zoominsoftware.com/
+- type: Support
+  url: https://zoomin.my.site.com/ServicePortal
+- type: TermsOfService
+  url: https://www.zoominsoftware.com/terms-of-use
+- type: PrivacyPolicy
+  url: https://www.salesforce.com/company/legal/privacy/
+- type: DomainSecurity
+  url: security/zoomin-domain-security.yml
+x-enrichment:
+  date: '2026-07-21'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
