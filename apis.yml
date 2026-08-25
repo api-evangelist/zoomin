@@ -12,16 +12,14 @@ accessModel:
   method: derived
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/zoomin.png
 name: Zoomin
-description: 'Zoomin is a content and knowledge orchestration platform that unifies
-  unstructured product content — documentation, in-product help, knowledge base and
-  community answers — into personalized self-service and in-app experiences across
-  customer support, success and experience teams. Founded in Tel Aviv, Zoomin was
-  acquired by Salesforce on November 1, 2024 and now powers the Unified Knowledge and
-  Agentforce/Data Cloud offerings. Its products include the Content Delivery Platform,
-  Documentation Portal, In-Product Help, Zoomin for ServiceNow, Unified Knowledge and
-  Zoomin Analytics. Zoomin does not publish a public, self-serve developer API surface;
-  its integrations are delivered through customer implementations and the Salesforce
-  platform. This profile was surfaced as a Bessemer Venture Partners portfolio company.'
+description: Zoomin is a content and knowledge orchestration platform that unifies unstructured product content
+  — documentation, in-product help, knowledge base and community answers — into personalized self-service and in-app
+  experiences across customer support, success and experience teams. Founded in Tel Aviv, Zoomin was acquired by
+  Salesforce on November 1, 2024 and now powers the Unified Knowledge and Agentforce/Data Cloud offerings. Its products
+  include the Content Delivery Platform, Documentation Portal, In-Product Help, Zoomin for ServiceNow, Unified Knowledge
+  and Zoomin Analytics. Zoomin does not publish a public, self-serve developer API surface; its integrations are
+  delivered through customer implementations and the Salesforce platform. This profile was surfaced as a Bessemer
+  Venture Partners portfolio company.
 url: https://raw.githubusercontent.com/api-evangelist/zoomin/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -31,7 +29,7 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.23'
 created: '2026-07-17'
-modified: '2026-07-21'
+modified: '2026-08-21'
 tags:
 - Company
 - Cloud
@@ -59,6 +57,12 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: ParentCompany
+  url: https://apis.io/providers/salesforce/
+  name: Salesforce
+  x-relationship: acquisition
+  x-generated-by: salesforce-family:2026-08-21
+  x-acquired: 2024
 - type: Website
   url: https://www.zoominsoftware.com/
 - type: Documentation
@@ -76,3 +80,6 @@ x-enrichment:
   status: minimal
   artifacts_added: 1
   pass: local-v1
+x-parent: salesforce
+x-relationship: acquisition
+x-acquired: 2024
