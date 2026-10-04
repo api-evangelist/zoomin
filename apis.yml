@@ -46,8 +46,8 @@ tags:
 - Cloud
 - Content
 - Documentation
-- Knowledge-Management
-- Customer-Support
+- Knowledge Management
+- Customer Support
 - Customer Experience
 - Analytics
 - Salesforce
@@ -61,6 +61,8 @@ tags_raw:
 - Customer Experience
 - Analytics
 - Salesforce
+- Knowledge-Management
+- Customer-Support
 apis: []
 maintainers:
 - FN: Kin Lane
